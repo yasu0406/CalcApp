@@ -37,10 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String number2 = editText2.getText().toString();
         double result1 = Double.valueOf(number1);
         double result2 = Double.valueOf(number2);
-        //int value1 = Integer.parseInt(number1);
-        //int value2 = Integer.parseInt(number2);
-//        double result1 = (double)value1;
-//        double result2 = (double)value2;
 
 
         switch (v.getId()) {
